@@ -85,7 +85,7 @@ function findMinMaxPages(books) {
 
     for (let i = 1; i < books.length; i++) {
 
-        if (books[i] < [minIndex]) {
+        if (books[i] < books[minIndex]) {
             minIndex = i;
         }
         if (books[i] > books[maxIndex]) {
